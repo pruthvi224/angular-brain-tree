@@ -1,0 +1,54 @@
+.hosted-field {
+  height: 50px;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 12px;
+  display: inline-block;
+  box-shadow: none;
+  font-weight: 500;
+  font-size: 14px;
+  border-radius: 10px;
+  border: 1px solid #dddddd;
+  line-height: 20px;
+  background: #fcfcfc;
+  margin-bottom: 12px;
+  background: linear-gradient(to right, white 50%, #fcfcfc 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 300ms ease-in-out;
+}
+
+.hosted-fields--label {
+  font-family: courier, monospace;
+  text-transform: uppercase;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.button-container {
+  display: block;
+  text-align: center;
+}
+
+.braintree-hosted-fields-focused {
+  border: 1px solid #64d18a;
+  border-radius: 20px;
+  background-position: left bottom;
+}
+
+.braintree-hosted-fields-invalid {
+  border: 1px solid #ed574a;
+}
+
+.braintree-hosted-fields-valid {
+}
+#cardForm {
+  max-width: 50.75em;
+  margin: 0 auto;
+  padding: 1.875em;
+}
+
+.postal {
+  display: none;
+}

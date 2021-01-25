@@ -2,12 +2,26 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>AngularBrainTree</title>
+  <title>ACI BrainTree</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script src="https://js.braintreegateway.com/web/3.70.0/js/paypal-checkout.min.js"></script>
+  <script src="https://js.braintreegateway.com/web/3.70.0/js/client.min.js"></script>
+  <script src="https://www.paypal.com/sdk/js?client-id=sb"></script>
+  <script>paypal.Buttons().render('body');</script>
+
 </head>
 <body>
   <app-root></app-root>
+<!--  <script src="https://www.paypalobjects.com/api/button.js?"-->
+<!--          data-merchant="braintree"-->
+<!--          data-id="paypal-button"-->
+<!--          data-button="checkout"-->
+<!--          data-color="gold"-->
+<!--          data-size="medium"-->
+<!--          data-shape="pill"-->
+<!--          data-button_type="submit"-->
+<!--          data-button_disabled="false"-->
+<!--  ></script>-->
 </body>
 </html>
